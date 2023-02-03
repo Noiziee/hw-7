@@ -11,7 +11,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: #000;
 }
 
 .container {
@@ -20,36 +20,31 @@ body {
   margin: 0 auto;
 }
 
-.title {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 42px;
-  text-align: center;
-}
-
-.message {}
-
-.description {
-  background-color: #000;
-}
-
-.description__inner {}
-
-.description__title {
-  max-width: 327px;
-}
-
-.description__lead {
-  max-width: 542px;
-  font-size: 16px;
-  line-height: 40px;
-}
-
-.description__message {
+.message {
   display: none;
 }
 
+.title {}
 
+.testimonials {
+  background-image: url('../images/bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.testimonials__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 1200px;
+}
+
+.testimonials__title {}
+
+.testimonials__lead {}
+
+.testimonials__message {}
 
 .message__author {}
 
