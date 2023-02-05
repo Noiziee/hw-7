@@ -22,10 +22,7 @@ body {
 
 
 .testimonials {
-  background-image: url('../images/bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
   position: relative;
 }
 
